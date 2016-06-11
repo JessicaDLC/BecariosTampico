@@ -1,0 +1,40 @@
+         {
+		padding:0px;
+		margin:0px;
+	 }
+		#header {
+			margin:auto;
+			width:0px;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		ul, ol{
+		list-style:none;
+		}
+		.nav li a{
+		background-color:#FF8000;
+		color:	#FFFFFF;
+		text-decoration:none;
+		padding:10px 10px;
+		display:block;
+		}
+		.nav li a:hover{
+		background-color:	#C0C0C0;
+		
+		}
+		.nav > li{
+		float:left;
+		}
+			
+		.nav li ul{
+		display:none;
+		position:absolute;
+		min-width-10px;
+		}
+	.nav li:hover> ul{
+	display:block;
+	}
+	
+body{
+	background-image:url("imagen.jpg");
+	background-size:100vw 100vh;
+}
